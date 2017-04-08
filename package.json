@@ -4,7 +4,7 @@
 	"description": "A simple chat boilerplate and demo",
 	"main": "src/index.html",
 	"scripts": {
-		"deploy": "git subtree push --prefix src origin gh-pages"
+		"deploy": "git subtree split --prefix output -b gh-pages && git push -f origin gh-pages:gh-pages"
 	},
 	"repository": {
 		"type": "git",
