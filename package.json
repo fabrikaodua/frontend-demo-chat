@@ -1,5 +1,6 @@
 {
 	"name": "frontend-demo-chat",
+	"private": true,
 	"version": "1.0.0",
 	"description": "A simple chat boilerplate and demo",
 	"main": "src/index.html",
